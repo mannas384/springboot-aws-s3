@@ -11,8 +11,8 @@ cloud:
     stack:
       auto: false
     credentials:
-      accessKey: AKIAWRWKP537JJ65J2NY
-      secretKey: 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
+      accessKey:
+      secretKey:
 
 application:
   bucket:
