@@ -1,0 +1,26 @@
+#Application properties
+server:
+  port: 8081
+
+
+#AWS properties
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+    stack:
+      auto: false
+    credentials:
+      accessKey: AKIAWRWKP537JJ65J2NY
+      secretKey: 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
+
+application:
+  bucket:
+    name: s3storage1
+
+logging:
+  level:
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: error
